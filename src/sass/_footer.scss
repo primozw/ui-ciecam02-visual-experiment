@@ -1,0 +1,12 @@
+.footer {
+  background-color: $white;
+  &>div {
+    min-height: 100px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .btn {
+    font-size: 1.3rem;
+  }
+}
